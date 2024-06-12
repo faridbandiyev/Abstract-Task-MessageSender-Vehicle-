@@ -13,6 +13,6 @@
         }
 
         public override string ShowInfo()
-        => $"
+        => $"Car - Brand: {Brand}, Model: {Model}, Color: {Color}, Year: {Year}, Max Speed: {MaxSpeed}";
     }
 }

@@ -9,8 +9,6 @@
         }
 
         public override string ShowInfo()
-        {
-            
-        }
+        => $"Bus - Passenger Count: {PassengerCount}, Color: {Color}, Year: {Year}";
     }
 }
